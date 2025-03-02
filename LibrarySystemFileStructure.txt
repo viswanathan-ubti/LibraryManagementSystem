@@ -1,0 +1,18 @@
+LibraryManagementSystem/
+│── app.config               # Database connection configuration  
+│── Data/  
+│   ├── Database.cs          # Manage database connection  
+│── Models/  
+│   ├── Book.cs              # Represent book entity  
+│   ├── BorrowedBook.cs      # Represent borrowed books entity  
+│   ├── User.cs              # Represent user information  
+│── Services/  
+│   ├── BookService.cs       # Handle book related operations(Add Book, View Book)  
+│   ├── UserService.cs       # Manage user accounts(Add user, View user, view Subscription details)  
+│   ├── BorrowService.cs     # Handle borrowing and returning book operation 
+│   ├── Logger.cs            # Log the exception  
+│── UI/  
+│   ├── AdminUI.cs           # Admin menu & operations  
+│   ├── SubscriberUI.cs      # Subscriber menu & operations    
+│── program.cs               # Main entry point for the application  
+│── log.txt                  # Log file for error tracking    
